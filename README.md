@@ -5,7 +5,7 @@
 * gameinn visualizes your keyboard and mouse activity.
 * server and client is created by python.
 
-![screen_shot](img/gameinn.png) 
+<img src="img/gameinn.png" width=50%>
 
 ## Enviroment
 
