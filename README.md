@@ -21,8 +21,6 @@
 ### Start
 
 ```
-cd gameinn
-
 # create database (sqlite3)
 python manage.py init_db
 
