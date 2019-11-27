@@ -1,0 +1,58 @@
+.card {
+  margin: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+}
+
+.card-block {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #808080;
+}
+
+.card-text {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.chart-title {
+  color: #808080;
+  margin: 20px 0;
+}
+
+.key-score {
+  color: #808080;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Josefin Sans', sans-serif !important;
+  margin-bottom: 0px;
+}
+
+.mouse-score {
+  color: #808080;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Josefin Sans', sans-serif !important;
+  margin-bottom: 0px;
+}
+
+.app-name {
+  color: #808080;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0px;
+}
+
+.blog-body {
+  padding: 1.25em;
+}
+
+* {
+  font-family: 'Mplus 1p';
+}

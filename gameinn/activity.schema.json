@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "gameinn request schema",
+  "required": [
+    "username",
+    "password",
+    "alphanumeric_key_count",
+    "special_key_count",
+    "keyboard_activity",
+    "mouse_movement",
+    "mouse_click_count",
+    "mouse_scroll_count",
+    "mouse_activity",
+    "app_name"
+  ],
+  "properties": {
+    "username": {
+      "$id": "#/properties/username",
+      "type": "string",
+      "title": "The Username Schema",
+      "default": "",
+      "examples": [
+        "gameinn"
+      ],
+      "pattern": "^(.*)$",
+      "maxLength": 50
+    },
+    "password": {
+      "$id": "#/properties/password",
+      "type": "string",
+      "title": "The Password Schema",
+      "default": "",
+      "examples": [
+        "gameinn"
+      ],
+      "pattern": "^(.*)$",
+      "maxLength": 50
+    },
+    "alphanumeric_key_count": {
+      "$id": "#/properties/alphanumeric_key_count",
+      "type": "integer",
+      "title": "The Alphanumeric_key_count Schema",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "special_key_count": {
+      "$id": "#/properties/special_key_count",
+      "type": "integer",
+      "title": "The Special_key_count Schema",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "keyboard_activity": {
+      "$id": "#/properties/keyboard_activity",
+      "type": "integer",
+      "title": "The Keyboard_activity Schema",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "mouse_movement": {
+      "$id": "#/properties/mouse_movement",
+      "type": "integer",
+      "title": "The Mouse_movement Schema",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "mouse_click_count": {
+      "$id": "#/properties/mouse_click_count",
+      "type": "integer",
+      "title": "The Mouse_click_count Schema",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "mouse_scroll_count": {
+      "$id": "#/properties/mouse_scroll_count",
+      "type": "integer",
+      "title": "The Mouse_scroll_count Schema",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "mouse_activity": {
+      "$id": "#/properties/mouse_activity",
+      "type": "integer",
+      "title": "The Mouse_activity Schema",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "app_name": {
+      "$id": "#/properties/app_name",
+      "type": "string",
+      "title": "The App_name Schema",
+      "default": "",
+      "examples": [
+        "gameinn"
+      ],
+      "pattern": "^(.*)$"
+    }
+  }
+}
+

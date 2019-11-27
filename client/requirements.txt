@@ -1,0 +1,4 @@
+pynput==1.4.5
+python-xlib==0.25
+schedule==0.6.0
+six==1.13.0
