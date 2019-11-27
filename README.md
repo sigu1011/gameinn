@@ -3,6 +3,9 @@
 ## About
 
 * gameinn visualizes your keyboard and mouse activity.
+* server and client is created by python.
+
+![screen_shot](img/gameinn.png) 
 
 ## Enviroment
 
@@ -50,4 +53,10 @@ cd client
 
 ## To be implementated
 
+* Write more unittests and Refactoring
+* Support for other OS (Win10, macOS)
+
 ## Idea
+
+* I want to apply it to gamification (activity battle)
+* I want to apply it to recommendation system (App recommendations)
