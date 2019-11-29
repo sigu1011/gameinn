@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "stop client application, exec kill <pid>."
-echo "check th pid of main.py with pgrep, please make sure you can stop it."
+echo "check th pid of gameinn_client.py with pgrep, please make sure you can stop it."
 
 user=`whoami`
 pid=`pgrep -u ${user} -f gameinn_client.py`
